@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+    p {
+        color: white;
+    }
+
+
+.logo-jiu {
+    height: 200px;
+}
+
+button {
+    color: white;
+    background-color: blue;
+    border-radius: 3px;
+    border: none;width: 200px;
+    height: 40px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+
+
+
+
+}
+.logo-ramon {
+
+    height: 500px;
+}
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    height: 100vh;
+}
+.caixa-principal {
+
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+
+}
+
+.link-whats {
+
+    height: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+.header {
+  position: fixed;
+  top:0;
+  width: 100%;
+  padding: 10px;
+  margin: 30px;
+  display: flex;
+  gap: 30px;
+
+}
+.header img {
+    height: 60px;
+}
+.header a {
+    
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+.header a:hover {
+
+    color: brown;
+    font-size: 26px;
+    transition: 0.5s ease-in-out;
+}
+.matricula {
+
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    gap: 20px;
+    top: 30px;
+    left: -300px;
+    padding: 20px;
+    border-radius: 5px;
+    transition: left 1s ease-in-out;
+}
+input {
+
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #18D80f;
+
+}
+textarea{
+
+    width: 270px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #18D80f;
+
+
+
+}
+.mascara-formulario {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    transition: visibility 1s ease-in-out;
